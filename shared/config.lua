@@ -225,7 +225,7 @@ Config.Actions = {
         label = "God Mode",
         type = "client",
         event = "ps-adminmenu:client:ToggleGodmode",
-        perms = "mod",
+        perms = "admin",
     },
 
     ["give_car"] = {
@@ -244,7 +244,7 @@ Config.Actions = {
         label = "Invisible",
         type = "client",
         event = "ps-adminmenu:client:ToggleInvisible",
-        perms = "mod",
+        perms = "admin",
     },
 
     ["blackout"] = {
