@@ -23,7 +23,7 @@ Config.Actions = {
 
     ["ban_player"] = {
         label = "Ban Player",
-        perms = "mod",
+        perms = "admin",
         dropdown = {
             { label = "Player", option = "dropdown", data = "players" },
             { label = "Reason", option = "text" },
@@ -116,7 +116,7 @@ Config.Actions = {
 
     ["clear_inventory"] = {
         label = "Clear Inventory",
-        perms = "mod",
+        perms = "admin",
         dropdown = {
             { label = "Player",  option = "dropdown", data = "players" },
             { label = "Confirm", option = "button",   type = "server", event = "ps-adminmenu:server:ClearInventory" },
@@ -125,7 +125,7 @@ Config.Actions = {
 
     ["clear_inventory_offline"] = {
         label = "Clear Inventory Offline",
-        perms = "mod",
+        perms = "admin",
         dropdown = {
             { label = "Citizen ID", option = "text",   data = "players" },
             { label = "Confirm",    option = "button", type = "server", event = "ps-adminmenu:server:ClearInventoryOffline" },
